@@ -1,0 +1,67 @@
+{
+    "BLEU-4": 7.29,
+    "PLS": [
+        27.99,
+        6.88,
+        4.15,
+        3.54
+    ],
+    "ROUGE": {
+        "rouge-1": {
+            "f": 25.52,
+            "p": 28.12,
+            "r": 28.12
+        },
+        "rouge-2": {
+            "f": 5.75,
+            "p": 6.43,
+            "r": 6.43
+        },
+        "rouge-l": {
+            "f": 22.63,
+            "p": 25.03,
+            "r": 25.06
+        }
+    },
+    "METEOR": 18.16,
+    "BERTScore": {
+        "Precision": 84.65,
+        "Recall": 84.65,
+        "F1": 84.62
+    },
+    "cleaning_report": {
+        "summary": {
+            "status": "ok",
+            "pred_file": "./data/contrast_model_response/Random/pred.txt",
+            "test_file": "./data/test.txt",
+            "raw_prediction_lines": 11290,
+            "valid_test_lines": 11290,
+            "malformed_rows_removed_first": 0,
+            "prediction_lines_after_split_clean": 11290,
+            "invalid_aligned_rows_removed_second": 0,
+            "final_prediction_lines": 11290,
+            "final_test_lines": 11290,
+            "split_clean_pred_file": "D:\\Cursor\\python_project\\core\\data\\contrast_model_response\\Random\\predictions.clean_split.txt",
+            "final_pred_file": "D:\\Cursor\\python_project\\core\\data\\contrast_model_response\\Random\\predictions.clean_valid.txt",
+            "final_test_file": "D:\\Cursor\\python_project\\core\\data\\contrast_model_response\\Random\\test.clean_valid.txt",
+            "deleted_rows_file": "D:\\Cursor\\python_project\\core\\data\\contrast_model_response\\Random\\deleted_rows.json",
+            "temp_files": [
+                "D:\\Cursor\\python_project\\core\\data\\contrast_model_response\\Random\\predictions.clean_split.txt",
+                "D:\\Cursor\\python_project\\core\\data\\contrast_model_response\\Random\\predictions.clean_valid.txt",
+                "D:\\Cursor\\python_project\\core\\data\\contrast_model_response\\Random\\test.clean_valid.txt",
+                "D:\\Cursor\\python_project\\core\\data\\contrast_model_response\\Random\\deleted_rows.json"
+            ]
+        },
+        "malformed_rows_removed_first": [],
+        "deleted_aligned_rows_removed_second": []
+    },
+    "temp_file_cleanup": {
+        "removed": [
+            "D:\\Cursor\\python_project\\core\\data\\contrast_model_response\\Random\\predictions.clean_split.txt",
+            "D:\\Cursor\\python_project\\core\\data\\contrast_model_response\\Random\\predictions.clean_valid.txt",
+            "D:\\Cursor\\python_project\\core\\data\\contrast_model_response\\Random\\test.clean_valid.txt",
+            "D:\\Cursor\\python_project\\core\\data\\contrast_model_response\\Random\\deleted_rows.json"
+        ],
+        "failed": []
+    }
+}
