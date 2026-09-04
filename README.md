@@ -1,23 +1,23 @@
 # RALRGen
 
-## 项目简介
+## Overview
 
-RALRGen（Retrieval-Augmented LLM-based Response Generation）是一个面向移动应用用户评论的自动回复生成框架。
+RALRGen is a retrieval-augmented framework for automatic app review response generation.
 
-该项目对应论文：
+This repository accompanies the paper:
 
 **Automating App Review Response Generation with Evolution-Aware Retrieval Augmentation**
 
-## 运行环境
+## Requirements
 
-推荐使用以下环境：
+Recommended environment:
 
 - Python >= 3.10
 - PyTorch >= 2.0
-- CUDA >= 11.8（使用 GPU 时）
+- CUDA >= 11.8 (optional, for GPU acceleration)
 - sentence-transformers
 - transformers
-- faiss-cpu / faiss-gpu
+- faiss-cpu or faiss-gpu
 - numpy
 - pandas
 - tqdm
@@ -25,7 +25,7 @@ RALRGen（Retrieval-Augmented LLM-based Response Generation）是一个面向移
 - rouge-score
 - requests
 
-推荐使用 Conda 创建独立环境：
+We recommend using Conda to create an isolated environment:
 
 ```bash
 conda create -n ralrgen python=3.10
